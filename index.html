@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es-419">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffe Route · Ruta del café y las cascadas</title>
+<meta name="description" content="Coffe Route: una ruta turística por fincas de café y cascadas escondidas. Descubre La Arboleda, Santa Fe, San Andrés y Chorro Blanco.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 8h14a3 3 0 013 3v1a3 3 0 01-3 3h-1" stroke="#F4ECDB" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M3 8v6a4 4 0 004 4h6a4 4 0 004-4V8" stroke="#F4ECDB" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </span>
+      Coffe Route
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="#top">Inicio</a>
+      <a href="#ruta">La ruta</a>
+      <a href="#resumen">Resumen</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="nav-cta" href="#contacto">Coordinar visita</a>
+
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<nav class="mobile-menu" id="mobileMenu">
+  <a href="#top">Inicio</a>
+  <a href="#ruta">La ruta</a>
+  <a href="#resumen">Resumen</a>
+  <a href="#contacto">Contacto</a>
+  <a href="mailto:tourismprojectscj@gmail.com">Escríbenos</a>
+</nav>
+
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <span class="eyebrow" style="color:var(--cream-100)">Ruta del café · Jaén</span>
+    <h1>Descubre las maravillas escondidas de la ciudad</h1>
+    <p>Un recorrido a través de fincas cafetaleras y cascadas escondidas, pensado para quienes buscan naturaleza, tradición y calma lejos del ruido.</p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" id="resumen" href="https://drive.google.com/file/d/1q4jfgQ2FSCGHE0FGvcmosxDavS_Zek8x/view?usp=sharing" target="_blank" rel="noopener">Ver resumen de la ruta</a>
+      <a class="btn btn-ghost" href="#ruta">Explorar la ruta</a>
+    </div>
+  </div>
+</section>
+
+<section class="intro wrap reveal">
+  <span class="eyebrow">La pregunta que nos hacen siempre</span>
+  <h2>¿Qué otros lugares visitaremos?</h2>
+  <p>Seis paradas conectan el recorrido: fincas donde nace el café y cascadas donde el agua se abre paso entre la montaña. Cada parada tiene su propio ritmo.</p>
+</section>
+
+<section class="route wrap" id="ruta">
+  <div class="trail">
+
+    <article class="stop reveal">
+      <div class="stop-num">01</div>
+      <div class="stop-card">
+        <div class="stop-media"><img src="arboleda.png" alt="La Arboleda Farm" loading="lazy"></div>
+        <div class="stop-body">
+          <span class="stop-tag">Finca</span>
+          <h3>La Arboleda Farm</h3>
+          <p>El punto de partida de la ruta: cafetales a la sombra de árboles altos, con vistas abiertas al valle y el aroma del café recién cortado.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="stop reveal">
+      <div class="stop-num">02</div>
+      <div class="stop-card">
+        <div class="stop-media"><img src="santafe.jpg" alt="Santa Fe Farm" loading="lazy"></div>
+        <div class="stop-body">
+          <span class="stop-tag">Finca</span>
+          <h3>Santa Fe Farm</h3>
+          <p>Una segunda finca familiar donde se conoce de cerca el proceso del grano, del cultivo al secado, guiado por quienes lo trabajan cada día.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="stop reveal">
+      <div class="stop-num">03</div>
+      <div class="stop-card">
+        <div class="stop-media"><img src="cascadasantafe.jpg" alt="Santa Fe Waterfall" loading="lazy"></div>
+        <div class="stop-body">
+          <span class="stop-tag">Cascada</span>
+          <h3>Santa Fe Waterfall</h3>
+          <p>A pocos minutos de la finca, una caída de agua rodeada de vegetación densa, ideal para una pausa y una foto junto al agua.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="stop reveal">
+      <div class="stop-num">04</div>
+      <div class="stop-card">
+        <div class="stop-media"><img src="sanandres.jpg" alt="San Andres Waterfall" loading="lazy"></div>
+        <div class="stop-body">
+          <span class="stop-tag">Cascada</span>
+          <h3>San Andrés Waterfall</h3>
+          <p>Una caminata corta lleva hasta esta cascada, más amplia que la anterior, con una poza donde el agua se calma antes de seguir su curso.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="stop reveal">
+      <div class="stop-num">05</div>
+      <div class="stop-card">
+        <div class="stop-media"><img src="paradise.jpg" alt="Trout Paradise" loading="lazy"></div>
+        <div class="stop-body">
+          <span class="stop-tag">Criadero</span>
+          <h3>"Trout Paradise"</h3>
+          <p>Un criadero de truchas entre canales de agua fría, donde es posible ver de cerca a los peces y, si se coordina antes, probarlas recién servidas.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="stop reveal">
+      <div class="stop-num">06</div>
+      <div class="stop-card">
+        <div class="stop-media"><img src="chorroblanco.jpg" alt="Chorro Blanco Waterfall" loading="lazy"></div>
+        <div class="stop-body">
+          <span class="stop-tag">Cascada</span>
+          <h3>Chorro Blanco Waterfall</h3>
+          <p>El cierre de la ruta: la cascada más alta del recorrido, con un salto de agua blanca que da nombre al lugar. El mejor punto para terminar el día.</p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--ochre-500)">Coordina tu visita</span>
+      <h2>Escríbenos y armamos la ruta contigo</h2>
+      <p>Respondemos por correo o WhatsApp para definir fecha, número de personas y el ritmo del recorrido.</p>
+    </div>
+    <div class="contact-cards reveal">
+      <a class="c-card" href="mailto:tourismprojectscj@gmail.com">
+        <span class="c-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 6h18v12H3V6z" stroke="currentColor" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6"/></svg>
+        </span>
+        <div><span>Correo</span><strong>tourismprojectscj@gmail.com</strong></div>
+      </a>
+      <a class="c-card" href="tel:+51950841333">
+        <span class="c-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 4h3l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v3a2 2 0 01-2 2C10 20 4 14 4 6a2 2 0 012-2z" stroke="currentColor" stroke-width="1.4"/></svg>
+        </span>
+        <div><span>Teléfono / WhatsApp</span><strong>+51 950 841 333</strong></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Coffe Route · Ruta del café y las cascadas · Cajamarca, Perú</div>
+</footer>
+
+<script>
+  const header = document.getElementById('siteHeader');
+  const burger = document.getElementById('burgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const scrim = document.getElementById('scrim');
+
+  function toggleMenu(open){
+    const isOpen = open !== undefined ? open : !burger.classList.contains('open');
+    burger.classList.toggle('open', isOpen);
+    mobileMenu.classList.toggle('open', isOpen);
+    scrim.classList.toggle('open', isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  }
+  burger.addEventListener('click', () => toggleMenu());
+  scrim.addEventListener('click', () => toggleMenu(false));
+  document.querySelectorAll('.mobile-menu a').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
