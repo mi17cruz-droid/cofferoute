@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es-419">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raíces que enseñan IE Sagrado Corazón – Jaén</title>
+<meta name="description" content="Raíces que enseñan: proyecto de innovación educativa STEAM+H de la IE Sagrado Corazón de Jaén. Rutas del cacao y del café, Huaca Montegrande, museo institucional y feria STEAM+H.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header id="siteHeader">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">
+        <img src="logo.jpg">
+      </span>
+      <span class="brand-text">Coffe Route<small>Raíces que enseñan</small></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="index.html#metodologia">STEAM+H</a>
+      <a href="rutas.html">Rutas</a>
+      <a href="rutas.html#fases">Fases</a>
+      <a href="index.html#evidencias">Evidencias</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="nav-cta" href="#contacto">Coordinar visita</a>
+
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="Menú móvil">
+  <a href="#top">Inicio</a>
+  <a href="#proyecto">Proyecto</a>
+  <a href="index.html#metodologia">STEAM+H</a>
+  <a href="rutas.html">Rutas</a>
+  <a href="rutas.html#fases">Fases</a>
+  <a href="index.html#evidencias">Evidencias</a>
+  <a href="index.html#impacto">Impacto</a>
+  <a href="#contacto">Contacto</a>
+  <a class="mm-cta" href="mailto:tourismprojectscj@gmail.com">Escríbenos</a>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero-inner wrap">
+    <span class="eyebrow eyebrow-light">Proyecto de innovación educativa · Jaén 2026</span>
+    <h1>Raíces que enseñan</h1>
+    <p class="hero-sub">Indagación STEAM+H del cacao ancestral y la identidad cultural en Jaén.</p>
+    <p>Los estudiantes de 1.° de secundaria de la IE “Sagrado Corazón” convierten las rutas del cacao y del café, la Huaca Montegrande y su comunidad en un laboratorio vivo de aprendizaje.</p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#ruta">Explorar las rutas
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="btn btn-ghost" id="resumen" href="https://drive.google.com/file/d/1q4jfgQ2FSCGHE0FGvcmosxDavS_Zek8x/view?usp=sharing" target="_blank" rel="noopener">Ver resumen de la ruta</a>
+    </div>
+  </div>
+
+  <div class="hero-stats wrap">
+    <div class="stat"><strong data-count="175">175</strong><span>estudiantes de 1.° de secundaria</span></div>
+    <div class="stat"><strong data-count="9">9</strong><span>áreas curriculares integradas</span></div>
+    <div class="stat"><strong data-count="2">2</strong><span>rutas de indagación: cacao y café</span></div>
+    <div class="stat"><strong>26 nov</strong><span>Feria Institucional STEAM+H</span></div>
+  </div>
+</section>
+
+
+
+<!-- ================= RUTAS ================= -->
+<section class="section route" id="ruta">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Las rutas</span>
+      <h2>¿Qué lugares visitaremos?</h2>
+      <p>El proyecto recorre dos rutas de indagación —la del cacao y la del café— y una ruta turística de fincas y cascadas. Elige una para ver sus paradas.</p>
+    </div>
+
+    <div class="tabs reveal" role="tablist" aria-label="Rutas">
+      <button class="tab active" role="tab" aria-selected="true" aria-controls="r-cacao" id="t-cacao" data-tab="r-cacao">
+        <span class="tab-dot cacao"></span>Ruta del Cacao<small>23 jul 2026</small>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-cafe" id="t-cafe" data-tab="r-cafe" tabindex="-1">
+        <span class="tab-dot cafe"></span>Ruta del Café<small>24 set 2026</small>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-coffe" id="t-coffe" data-tab="r-coffe" tabindex="-1">
+        <span class="tab-dot falls"></span>Coffe Route<small>Fincas y cascadas</small>
+      </button>
+    </div>
+
+    <!-- RUTA DEL CACAO -->
+    <div class="tab-panel active" id="r-cacao" role="tabpanel" aria-labelledby="t-cacao">
+      <div class="route-intro">
+        <p>Salida de campo a la ruta productiva del cacao y visita arqueológica a la Huaca Montegrande. Los estudiantes formulan hipótesis y preguntas de indagación, y abren sus bitácoras de campo.</p>
+        <a class="link-pill" href="https://sites.google.com/view/cocoa-route-scj/main" target="_blank" rel="noopener">Repositorio bilingüe · Cocoa Route ↗</a>
+      </div>
+      <div class="trail">
+        <article class="stop">
+          <div class="stop-num">01</div>
+          <div class="stop-card">
+            <div class="stop-media"><img src="altamirano.jpeg" alt="Granos y mazorca de cacao" loading="lazy"></div>
+            <div class="stop-body">
+              <span class="stop-tag">Finca cacaotera</span>
+              <h3>Finca Altamirano</h3>
+              <p>Inicio de la ruta del cacao: los equipos observan el cultivo y conversan con productores para registrar variedades, rendimiento y procesos de fermentación y secado.</p>
+            </div>
+          </div>
+        </article>
+        <article class="stop">
+          <div class="stop-num">02</div>
+          <div class="stop-card">
+            <div class="stop-media"><img src="docentes.jpeg" alt="Ilustración de la Huaca Montegrande" loading="lazy"></div>
+            <div class="stop-body">
+              <span class="stop-tag">Sitio arqueológico</span>
+              <h3>Huaca Montegrande</h3>
+              <p>Evidencia científica e histórica de la domesticación más antigua del cacao en el mundo, que convierte a Jaén en origen mundial del cacao. Escenario de indagación histórico-científica.</p>
+            </div>
+          </div>
+        </article>
+        <article class="stop">
+          <div class="stop-num">03</div>
+          <div class="stop-card">
+            <div class="stop-media"><img src="museo.jpg" alt="Ilustración del cacao ancestral" loading="lazy"></div>
+            <div class="stop-body">
+              <span class="stop-tag">Museo</span>
+              <h3>Museo Hermógenes Mejía Solf</h3>
+              <p>Visita para conocer el legado ancestral de la región y conectar los hallazgos de Montegrande con la identidad cultural de Jaén.</p>
+            </div>
+          </div>
+        </article>
+        <article class="stop">
+          <div class="stop-num">04</div>
+          <div class="stop-card">
+            <div class="stop-media"><img src="estudiantes.jpg" alt="Estudiantes escuchando una explicación en el bosque" loading="lazy"></div>
+            <div class="stop-body">
+              <span class="stop-tag">Área natural</span>
+              <h3>Bosque Seco “Gotas de Agua”</h3>
+              <p>Cierre de la ruta en contacto con la biodiversidad local: registro de datos biológicos con celular y bitácora.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- RUTA DEL CAFÉ -->
+    <div class="tab-panel" id="r-cafe" role="tabpanel" aria-labelledby="t-cafe" hidden>
+      <div class="route-intro">
+        <p>Segunda salida de campo, centrada en el proceso del grano de café y el intercambio pedagógico con otra institución educativa. Las bitácoras se cierran una semana después de esta ruta.</p>
+        <a class="link-pill" href="https://sites.google.com/view/coffe-route/main" target="_blank" rel="noopener">Repositorio bilingüe · Coffe Route ↗</a>
+      </div>
+      <div class="trail">
+        <article class="stop">
+          <div class="stop-num">01</div>
+          <div class="stop-card">
+            <div class="stop-media"><img src="arboleda.png" alt="Finca La Arboleda" loading="lazy"></div>
+            <div class="stop-body">
+              <span class="stop-tag">Finca cafetalera</span>
+              <h3>Finca La Arboleda</h3>
+              <p>Cafetales a la sombra de árboles altos, con vistas al valle. Los estudiantes registran variables productivas y recogen testimonios de los agricultores.</p>
+            </div>
+          </div>
+        </article>
+        <article class="stop">
+          <div class="stop-num">02</div>
+          <div class="stop-card">
+            <div class="stop-media"><img src="cascada.jpg" alt="Estudiantes trabajando al aire libre" loading="lazy"></div>
+            <div class="stop-body">
+              <span class="stop-tag">Intercambio institucional</span>
+              <h3>IE Arana Vidal – CP Las Naranjas</h3>
+              <p>Intercambio pedagógico entre instituciones: primer paso para replicar el modelo “Raíces que enseñan” en zonas rurales.</p>
+            </div>
+          </div>
+        </article>
+        <article class="stop">
+          <div class="stop-num">03</div>
+          <div class="stop-card">
+            <div class="stop-media"><img src="cascadasantafe.jpg" alt="Finca Santa Fe" loading="lazy"></div>
+            <div class="stop-body">
+              <span class="stop-tag">Finca cafetalera</span>
+              <h3>Finca Santa Fe</h3>
+              <p>Finca familiar donde se conoce de cerca el proceso del grano, del cultivo al secado, guiado por quienes lo trabajan cada día.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- COFFE ROUTE (ruta original) -->
+    <div class="tab-panel" id="r-coffe" role="tabpanel" aria-labelledby="t-coffe" hidden>
+      <div class="route-intro">
+        <p>Un recorrido turístico por fincas cafetaleras y cascadas escondidas, pensado para quienes buscan naturaleza, tradición y calma lejos del ruido.</p>
+      </div>
+      <div class="trail">
+        <article class="stop"><div class="stop-num">01</div><div class="stop-card">
+          <div class="stop-media"><img src="arboleda.png" alt="La Arboleda Farm" loading="lazy"></div>
+          <div class="stop-body"><span class="stop-tag">Finca</span><h3>La Arboleda Farm</h3><p>El punto de partida: cafetales a la sombra de árboles altos, con vistas abiertas al valle y el aroma del café recién cortado.</p></div>
+        </div></article>
+        <article class="stop"><div class="stop-num">02</div><div class="stop-card">
+          <div class="stop-media"><img src="santafe.jpg" alt="Santa Fe Farm" loading="lazy"></div>
+          <div class="stop-body"><span class="stop-tag">Finca</span><h3>Santa Fe Farm</h3><p>Una finca familiar donde se conoce de cerca el proceso del grano, del cultivo al secado.</p></div>
+        </div></article>
+        <article class="stop"><div class="stop-num">03</div><div class="stop-card">
+          <div class="stop-media"><img src="cascadasantafe.jpg" alt="Santa Fe Waterfall" loading="lazy"></div>
+          <div class="stop-body"><span class="stop-tag">Cascada</span><h3>Santa Fe Waterfall</h3><p>A pocos minutos de la finca, una caída de agua rodeada de vegetación densa, ideal para una pausa.</p></div>
+        </div></article>
+        <article class="stop"><div class="stop-num">04</div><div class="stop-card">
+          <div class="stop-media"><img src="sanandres.jpg" alt="San Andrés Waterfall" loading="lazy"></div>
+          <div class="stop-body"><span class="stop-tag">Cascada</span><h3>San Andrés Waterfall</h3><p>Una caminata corta lleva hasta esta cascada amplia, con una poza donde el agua se calma.</p></div>
+        </div></article>
+        <article class="stop"><div class="stop-num">05</div><div class="stop-card">
+          <div class="stop-media"><img src="paradise.jpg" alt="Trout Paradise" loading="lazy"></div>
+          <div class="stop-body"><span class="stop-tag">Criadero</span><h3>“Trout Paradise”</h3><p>Un criadero de truchas entre canales de agua fría; si se coordina antes, se pueden probar recién servidas.</p></div>
+        </div></article>
+        <article class="stop"><div class="stop-num">06</div><div class="stop-card">
+          <div class="stop-media"><img src="chorroblanco.jpg" alt="Chorro Blanco Waterfall" loading="lazy"></div>
+          <div class="stop-body"><span class="stop-tag">Cascada</span><h3>Chorro Blanco Waterfall</h3><p>El cierre: la cascada más alta del recorrido, con un salto de agua blanca que da nombre al lugar.</p></div>
+        </div></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FASES ================= -->
+<section class="section phases" id="fases">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">El viaje del estudiante</span>
+      <h2>Del campo a la comunidad en cinco fases</h2>
+      <p>Del 23 de julio al 26 de noviembre de 2026, del territorio al aula y del aula a la comunidad.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="phase reveal">
+        <span class="phase-n">1</span>
+        <div class="phase-card">
+          <span class="phase-date">23 jul · 24 set</span>
+          <h3>Exploración en terreno <em>preguntar</em></h3>
+          <p>Ruta del Cacao y Ruta del Café. Formulación de hipótesis y preguntas de indagación; inicio del registro fotográfico.</p>
+        </div>
+      </li>
+      <li class="phase reveal">
+        <span class="phase-n">2</span>
+        <div class="phase-card">
+          <span class="phase-date">23 jul – 30 set</span>
+          <h3>Recolección y registro <em>registrar</em></h3>
+          <p>Bitácoras y celulares para capturar datos biológicos, productivos y culturales in situ.</p>
+        </div>
+      </li>
+      <li class="phase reveal">
+        <span class="phase-n">3</span>
+        <div class="phase-card">
+          <span class="phase-date">1 set – 25 nov</span>
+          <h3>Análisis e ideación <em>analizar</em></h3>
+          <p>Programación articulada de 9 áreas: tablas, gráficos, Informe DataCacao y bocetos de emprendimiento.</p>
+        </div>
+      </li>
+      <li class="phase reveal">
+        <span class="phase-n">4</span>
+        <div class="phase-card">
+          <span class="phase-date">1 oct – 20 nov</span>
+          <h3>Creación y producción <em>crear</em></h3>
+          <p>Danza de la Cosecha del cacao, museo escolar institucional y repositorio virtual bilingüe en Google Sites.</p>
+        </div>
+      </li>
+      <li class="phase reveal">
+        <span class="phase-n">5</span>
+        <div class="phase-card">
+          <span class="phase-date">13 ago – 26 nov</span>
+          <h3>Comunicación y reflexión <em>exponer</em></h3>
+          <p>Festival de Inglés (13 ago), guiado institucional al museo y Feria Institucional STEAM+H del 26 de noviembre.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Cerrar">×</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Anterior">‹</button>
+  <figure><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Siguiente">›</button>
+</div>
+
+<!-- ================= IMPACTO ================= -->
+<section class="section impact" id="impacto">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Impacto esperado</span>
+      <h2>Metas al 26 de noviembre de 2026</h2>
+    </div>
+    <div class="goals">
+      <article class="goal reveal">
+        <h3>Indagación · C20</h3>
+        <div class="goal-compare"><div><small>Línea base</small><b>55 %</b><span>en Inicio</span></div><i>→</i><div class="goal-target"><small>Meta</small><b>&lt; 20 %</b><span>en Inicio</span></div></div>
+        <p>≈ 46 % en Proceso y ≥ 35 % en Logrado.</p>
+      </article>
+      <article class="goal reveal">
+        <h3>Análisis de datos · C25</h3>
+        <div class="goal-compare"><div><small>Línea base</small><b>78 %</b><span>con dificultades</span></div><i>→</i><div class="goal-target"><small>Meta</small><b>≤ 30 %</b><span>con dificultades</span></div></div>
+        <p>Al menos el 70 % gestiona datos con autonomía.</p>
+      </article>
+      <article class="goal reveal">
+        <h3>Comunicación</h3>
+        <div class="goal-compare"><div class="goal-target full"><small>Meta</small><b>≥ 70 %</b><span>sustenta de forma oral, escrita y bilingüe</span></div></div>
+        <p>Competencias 7, 9 y 17.</p>
+      </article>
+      <article class="goal reveal">
+        <h3>Identidad y creación</h3>
+        <div class="goal-compare"><div class="goal-target full"><small>Meta</small><b>≥ 70 %</b><span>con un producto de identidad cultural</span></div></div>
+        <p>Souvenir, brochure, crónica o danza.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ALIADOS + EQUIPO ================= -->
+<section class="section wrap" id="aliados">
+  <div class="split">
+    <div class="reveal">
+      <span class="eyebrow">Aliados estratégicos</span>
+      <h2>Escuela, comunidad y territorio</h2>
+      <ul class="allies">
+        <li><b>Huaca Montegrande</b><span>Escenario de indagación histórico-científica.</span></li>
+        <li><b>Cooperativas cafetaleras y cacaoteras</b><span>Datos productivos reales y testimonios.</span></li>
+        <li><b>Familias productoras</b><span>Saberes locales y validación cultural.</span></li>
+        <li><b>IE Arana Vidal – CP Las Naranjas</b><span>Intercambio pedagógico y réplica del modelo.</span></li>
+        <li><b>Municipalidad de Jaén / GERCETUR</b><span>Validación y difusión del repositorio turístico.</span></li>
+        <li><b>Investigadores (UNMSM, UNAC)</b><span>Apoyo científico sobre el cacao ancestral.</span></li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">Equipo innovador</span>
+      <h2>Docentes de nueve áreas</h2>
+      <ul class="team">
+        <li><b>Violeta Gonzales León</b><span>Directora · Coordinación general</span></li>
+        <li><b>Mariano Chávez Mejía</b><span>CC.SS. · Coordinador del proyecto</span></li>
+        <li><b>Nelly Zavaleta Pérez · Jeanette E. Edquén Portales</b><span>Ciencia y Tecnología · Ejes [S] y [T]</span></li>
+        <li><b>Liliana L. Popuche Díaz</b><span>Matemática · Eje [M]</span></li>
+        <li><b>Miguel Ángel Pizarro Julca</b><span>Arte y Cultura · Eje [A]</span></li>
+        <li><b>Nivia E. Peña Contreras · Ysela Y. Guevara Díaz · Rosa E. Jiménez Ubillus</b><span>Inglés / Comunicación · Componente bilingüe</span></li>
+        <li><b>Mirian Adina Cruz Herrera</b><span>EPT · Eje [E]</span></li>
+        <li><b>José del Carmen Mejía Díaz · Karin Y. Ocupa Núñez · Rosa Correa Barrantes</b><span>Religión / CC.SS. / DPCC · Eje [+H]</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section class="contact" id="contacto">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--ochre-500)">Coordina tu visita</span>
+      <h2>Escríbenos y armamos la ruta contigo</h2>
+      <p>Respondemos por correo o WhatsApp para definir fecha, número de personas y el ritmo del recorrido.</p>
+      <p class="motto">“Porque aprender desde nuestras raíces nos permite transformar nuestro futuro.”</p>
+    </div>
+    <div class="contact-cards reveal">
+      <a class="c-card" href="mailto:tourismprojectscj@gmail.com">
+        <span class="c-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 6h18v12H3V6z" stroke="currentColor" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6"/></svg>
+        </span>
+        <div><span>Correo</span><strong>tourismprojectscj@gmail.com</strong></div>
+      </a>
+      <a class="c-card" href="tel:+51950841333">
+        <span class="c-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 4h3l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v3a2 2 0 01-2 2C10 20 4 14 4 6a2 2 0 012-2z" stroke="currentColor" stroke-width="1.4"/></svg>
+        </span>
+        <div><span>Teléfono / WhatsApp</span><strong>+51 950 841 333</strong></div>
+      </a>
+      <a class="c-card" href="https://sites.google.com/view/coffe-route/main" target="_blank" rel="noopener">
+        <span class="c-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c3 3.5 3 14 0 18M12 3c-3 3.5-3 14 0 18" stroke="currentColor" stroke-width="1.4"/></svg>
+        </span>
+        <div><span>Repositorio virtual</span><strong>Coffe Route · Google Sites</strong></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">IE “Sagrado Corazón” – Jaén · Raíces que enseñan · Equipo Innovador STEAM+H 2026 · Cajamarca, Perú</div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Volver arriba">↑</button>
+
+<script>
+  const header = document.getElementById('siteHeader');
+  const burger = document.getElementById('burgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const scrim = document.getElementById('scrim');
+  const toTop = document.getElementById('toTop');
+
+  /* ---- Menú hamburguesa ---- */
+  function toggleMenu(open){
+    const isOpen = open !== undefined ? open : !burger.classList.contains('open');
+    burger.classList.toggle('open', isOpen);
+    mobileMenu.classList.toggle('open', isOpen);
+    scrim.classList.toggle('open', isOpen);
+    burger.setAttribute('aria-expanded', isOpen);
+    burger.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    document.body.classList.toggle('menu-open', isOpen);
+  }
+  burger.addEventListener('click', () => toggleMenu());
+  scrim.addEventListener('click', () => toggleMenu(false));
+  document.querySelectorAll('.mobile-menu a').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { toggleMenu(false); closeLb(); } });
+  window.addEventListener('resize', () => { if (window.innerWidth > 960) toggleMenu(false); });
+
+  /* ---- Header al hacer scroll + botón arriba ---- */
+  function onScroll(){
+    header.classList.toggle('scrolled', window.scrollY > 40);
+    toTop.classList.toggle('show', window.scrollY > 700);
+  }
+  window.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+  toTop.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+
+  /* ---- Enlace activo en el menú ---- */
+  const navLinks = document.querySelectorAll('.desktop-nav a');
+  const spy = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  document.querySelectorAll('section[id]').forEach(s => spy.observe(s));
+
+  /* ---- Aparición al hacer scroll ---- */
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal, .stop, .panel').forEach(el => io.observe(el));
+
+  /* ---- Pestañas de rutas ---- */
+  const tabs = [...document.querySelectorAll('.tab')];
+  function selectTab(tab){
+    tabs.forEach(t => {
+      const on = t === tab;
+      t.classList.toggle('active', on);
+      t.setAttribute('aria-selected', on);
+      t.tabIndex = on ? 0 : -1;
+      const panel = document.getElementById(t.dataset.tab);
+      panel.hidden = !on;
+      panel.classList.toggle('active', on);
+      if (on) panel.querySelectorAll('.stop').forEach(s => { s.classList.remove('in'); requestAnimationFrame(() => io.observe(s)); });
+    });
+  }
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => selectTab(t));
+    t.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+        const n = tabs[(i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
+        selectTab(n); n.focus();
+      }
+    });
+  });
+
+  /* ---- Filtros de evidencias ---- */
+  const items = [...document.querySelectorAll('.g-item')];
+  document.querySelectorAll('.filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter').forEach(b => b.classList.toggle('active', b === btn));
+      const f = btn.dataset.filter;
+      items.forEach(it => it.classList.toggle('hide', f !== 'all' && it.dataset.cat !== f));
+    });
+  });
+
+  /* ---- Lightbox ---- */
+  const lb = document.getElementById('lightbox'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap');
+  let current = 0;
+  const visible = () => items.filter(i => !i.classList.contains('hide'));
+  function openLb(item){
+    const list = visible(); current = list.indexOf(item);
+    showLb(list[current]); lb.hidden = false; document.body.style.overflow = 'hidden';
+    document.getElementById('lbClose').focus();
+  }
+  function showLb(item){
+    const img = item.querySelector('img');
+    lbImg.src = img.src; lbImg.alt = img.alt;
+    const cap = item.querySelector('figcaption');
+    lbCap.textContent = cap.querySelector('span').textContent + ' · ' + cap.lastChild.textContent.trim();
+  }
+  function stepLb(d){ const list = visible(); current = (current + d + list.length) % list.length; showLb(list[current]); }
+  function closeLb(){ if (!lb.hidden) { lb.hidden = true; document.body.style.overflow = ''; } }
+  items.forEach(it => {
+    it.tabIndex = 0;
+    it.addEventListener('click', () => openLb(it));
+    it.addEventListener('keydown', e => { if (e.key === 'Enter') openLb(it); });
+  });
+  document.getElementById('lbClose').addEventListener('click', closeLb);
+  document.getElementById('lbPrev').addEventListener('click', () => stepLb(-1));
+  document.getElementById('lbNext').addEventListener('click', () => stepLb(1));
+  lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', e => { if (lb.hidden) return; if (e.key === 'ArrowRight') stepLb(1); if (e.key === 'ArrowLeft') stepLb(-1); });
+</script>
+
+</body>
+</html>
