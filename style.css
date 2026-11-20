@@ -83,7 +83,7 @@ header.scrolled{
 header.scrolled .brand{color:var(--coffee-950);}
 .brand-mark{
   width:80px;height:80px;border-radius:50%;
-  background:radial-gradient(circle at 30% 30%, var(--ochre-500), var(--coffee-800));
+  /*background:radial-gradient(circle at 30% 30%, var(--ochre-500), var(--coffee-800));*/
   display:grid;place-items:center;flex-shrink:0;
   box-shadow:inset 0 0 0 2px rgba(255,255,255,.25);
   transition:transform .5s var(--ease);
